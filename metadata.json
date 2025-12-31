@@ -1,0 +1,5 @@
+{
+  "name": "Global Threat Monitor NG",
+  "description": "A real-time geospatial threat awareness dashboard using Gemini to analyze and summarize global risks like earthquakes, wildfires, and more.",
+  "requestFramePermissions": []
+}
