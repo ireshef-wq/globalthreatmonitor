@@ -1,0 +1,17 @@
+name = "globalthreatmonitor"
+compatibility_date = "2025-12-31"
+
+# This repo is a Cloudflare Pages + Pages Functions project.
+# Wrangler is still useful for local development and for binding D1/KV.
+
+[[d1_databases]]
+binding = "GTM_DB"
+database_name = "globalthreatmonitor"
+database_id = "REPLACE_ME"
+
+[[kv_namespaces]]
+binding = "GTM_KV"
+id = "REPLACE_ME"
+
+[vars]
+TAXONOMY_VERSION = "v1"
